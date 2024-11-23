@@ -1,8 +1,10 @@
 //JavaScript program to implement a result grading system based on marks.
+
 const marks = +prompt ("Kire mama tor na result dilo ajke. Exam e koto paisos");
 window.location.reload()
-
-if(marks >=0 && marks <=32){
+if(marks == ""){
+    alert("Kire bol koto paisos")
+}else if(marks >=0 && marks <=32){
     confirm("Tui to exam e fail korsos ehon party de")
 }else if(marks >=33 && marks <=39){
     confirm("Tor Grade D. Kintu Pass to korsos")
